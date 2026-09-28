@@ -33,13 +33,14 @@ a { color: inherit; }
   gap: 1.5rem;
 }
 .brand { display: flex; gap: .55rem; align-items: center; font-size: 1.2rem; font-weight: 800; text-decoration: none; }
-.brand-mark { font-size: 1.5rem; }
+.brand-logo { display: block; width: 112px; height: auto; }
 nav { display: flex; gap: 1.25rem; }
 nav a { color: var(--muted); font-size: .9rem; font-weight: 700; text-decoration: none; }
 nav a:hover { color: var(--ink); }
 
 .hero { background: var(--yellow); padding: 6.5rem 0 6rem; }
 .hero-inner { text-align: center; }
+.hero-logo { display: block; width: min(360px, 82%); height: auto; margin: 0 auto 2rem; border-radius: .5rem; }
 .welcome { margin: 0 0 1rem; color: #a16207; font-size: 1.1rem; font-weight: 800; }
 .eyebrow, .section-label {
   margin: 0 0 .8rem;
