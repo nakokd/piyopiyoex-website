@@ -40,6 +40,7 @@ nav a:hover { color: var(--ink); }
 
 .hero { background: var(--yellow); padding: 6.5rem 0 6rem; }
 .hero-inner { text-align: center; }
+.welcome { margin: 0 0 1rem; color: #a16207; font-size: 1.1rem; font-weight: 800; }
 .eyebrow, .section-label {
   margin: 0 0 .8rem;
   color: #a16207;
@@ -80,6 +81,8 @@ h3 { margin: .7rem 0 .5rem; font-size: 1.1rem; }
 }
 .link-card:hover { transform: translateY(-2px); border-color: var(--yellow-deep); }
 .link-card span { color: var(--muted); }
+.policy-note { margin-top: 1.5rem; color: var(--muted); font-size: .95rem; }
+.policy-note a { font-weight: 700; text-underline-offset: .2em; }
 .closing { margin-top: 2rem; }
 .enjoy { margin-bottom: 0; font-size: 1.25rem; font-weight: 800; }
 
